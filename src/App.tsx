@@ -11,11 +11,6 @@ import {Routes, Route} from 'react-router-dom'
 
 function App() {
 
-  // const circ = (num: number) => {
-  //   return num * Math.PI;
-  // }
-
-
   return (
     <div className="App">
       <NavBar />
