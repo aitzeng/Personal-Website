@@ -3,15 +3,15 @@ import React from 'react';
 function NavBar() {
   return (
     <header>
-      <nav className="md:flex md:items-center md:justify-between" >
+      <nav className="bg-slate-950 md:flex md:items-center md:justify-between" >
         <div>
-          <a className='mx-4' href="/home">Anthony Tzeng</a>
+          <a className='mx-4 text-slate-50 text-2xl' href="/home">Anthony Tzeng</a>
         </div>
         <ul>
-          <a className='mx-4' href="/home">Home</a>
-          <a className='mx-4' href="/about">About</a>
-          <a className='mx-4' href="/portfolio">Portfolio</a>
-          <a className='mx-4' href="/contact">Contact</a>
+          <a className='mx-4 text-slate-50 text-2xl' href="/home">Home</a>
+          <a className='mx-4 text-slate-50 text-2xl' href="/about">About</a>
+          <a className='mx-4 text-slate-50 text-2xl' href="/portfolio">Portfolio</a>
+          <a className='mx-4 text-slate-50 text-2xl' href="/contact">Contact</a>
         </ul>
       </nav>
     </header>
