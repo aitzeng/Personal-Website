@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
 // import Main from './components/Main'
 import Home from './components/Home'
@@ -15,6 +15,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
+        <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home/>} />
         <Route path='about' element={<About/>} />
         <Route path='/portfolio' element={<Portfolio/>} />
