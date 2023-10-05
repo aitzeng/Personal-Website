@@ -1,5 +1,6 @@
 import React from 'react';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import resume from '../assets/Resume.pdf';
 
 function NavBar() {
   return (
@@ -11,6 +12,7 @@ function NavBar() {
         </div>
         <ul>
           <a className='mx-4 text-slate-50 text-2xl' href="/home">Home</a>
+          <a className='mx-4 text-slate-50 text-2xl' href={resume} >Resume</a>
           <a className='mx-4 text-slate-50 text-2xl' href="/about">About</a>
           <a className='mx-4 text-slate-50 text-2xl' href="/portfolio">Portfolio</a>
           <a className='mx-4 text-slate-50 text-2xl' href="/contact">Contact</a>
