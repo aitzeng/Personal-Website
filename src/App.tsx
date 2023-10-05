@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import Main from './components/Main'
+// import Main from './components/Main'
 import Home from './components/Home'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
@@ -13,7 +13,6 @@ function App() {
 
   return (
     <div className="App">
-      <Main />
       <NavBar />
       <Routes>
         <Route path='/home' element={<Home/>} />
