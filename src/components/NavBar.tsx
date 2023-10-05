@@ -4,8 +4,8 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 function NavBar() {
   return (
     <header>
-      <nav className="bg-slate-950 md:flex md:items-center md:justify-between" >
-        <div className="mx-4 md:flex text-slate-50 text-2xl">
+      <nav className="bg-slate-950 md:flex md:items-center md:justify-between p-2" >
+        <div className="mx-4 md:flex text-slate-50 text-3xl">
           <a className='mx-4' href="https://www.linkedin.com/in/anthonytzeng/"><AiFillLinkedin/></a>
           <a className='mx-4' href="https://github.com/aitzeng"><AiFillGithub/></a>
         </div>
