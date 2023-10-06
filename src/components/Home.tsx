@@ -9,7 +9,7 @@ function Home() {
           <div className="texts-left flex flex-col">
             <span className="text-xl text-red-700">Hi, my name is</span>
             <span className="text-5xl font-bold">Anthony Tzeng</span>
-            <span className="text-5xl font-bold" >I'm a Full-Stack Software Engineer</span>
+            <span className="text-5xl font-bold" >I'm a Software Engineer</span>
         </div>
       </div>
     </div>
