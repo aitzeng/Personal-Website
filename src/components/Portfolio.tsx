@@ -1,4 +1,3 @@
-import React from 'react';
 import { PiDogFill } from 'react-icons/pi';
 import { CgWebsite } from 'react-icons/cg';
 import { FcGlobe, FcMultipleInputs } from 'react-icons/fc';
