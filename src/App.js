@@ -4,6 +4,7 @@ import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import NavBar from './components/NavBar'
 import {Routes, Route} from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/contact' element={<Contact/>} />
       </Routes>
+      <Analytics />
     </div>
   );
 }
