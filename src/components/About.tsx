@@ -1,4 +1,3 @@
-import React from 'react';
 import selfie from '../assets/IMG-5338.JPG';
 
 function About() {

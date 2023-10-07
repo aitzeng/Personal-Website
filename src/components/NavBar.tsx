@@ -1,4 +1,3 @@
-import React from 'react';
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 import resume from '../assets/Resume.pdf';
 
