@@ -2,7 +2,7 @@ import selfie from '../assets/IMG-5338.JPG';
 
 function About() {
   return (
-    <div className="bg-slate-700 h-screen w-screen flex flex-col">
+    <div className="bg-slate-700 h-screen flex flex-col">
       <div className="content flex-col ">
         <h3 className="text-slate-50 text-3xl mx-4 my-2 md:text-5xl md:mx-4 md:my-4 underline">About Me</h3>
         <div className="flex flex-col justify-between items-center mx-4 my-4 md:mx-4 md:my-4">
