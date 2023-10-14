@@ -15,7 +15,7 @@ function NavBar() {
           <a className='mx-2 md:mx-4 text-lg md:text-2xl text-slate-50 hover:underline' href="/home">Home</a>
           <a className='mx-2 md:mx-4 text-lg md:text-2xl text-slate-50 hover:underline' href="/portfolio">Portfolio</a>
           <a className='mx-2 md:mx-4 text-lg md:text-2xl text-slate-50 hover:underline' href="/about">About</a>
-          <a className='mx-2 md:mx-4 text-lg md:text-2xl text-slate-50 hover:underline' href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
+          <a className='ml-2 mr-4 md:mx-4 text-lg md:text-2xl text-slate-50 hover:underline' href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
         </ul>
       </nav>
     </header>
