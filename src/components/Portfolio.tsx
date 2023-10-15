@@ -6,9 +6,9 @@ import { GiClothes } from 'react-icons/gi';
 function Portfolio() {
   return (
     <div className="bg-slate-700 flex flex-col h-screen">
-      <div className="main">
+      <div className="h-full">
         <h3 className="text-slate-50 text-3xl mx-4 my-4 md:text-5xl underline">Portfolio</h3>
-        <div className="text-slate-50 flex-col w-3/4">
+        <div className="text-slate-50 h-3/4">
           <a className="mx-4 my-4 border-slate-50 border-2 rounded flex flex-col justify-between w-1/2 md:w-1/4 md:h-1/4 relative hover:bg-slate-50 hover:border-slate-900 hover:text-black" target="_blank" rel="noreferrer" href="https://github.com/aitzeng/wuphf">
             <span className='mx-2 my-2 z-10 text-base'>WUPHF</span>
             <span className='mx-2 my-2 text-xs z-10'>Send single message to people using various communication methods</span>
