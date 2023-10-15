@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-} */
+body {
+  background-color: #374151;
+}
 
 /* body {
   margin: 0;
