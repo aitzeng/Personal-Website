@@ -24,7 +24,7 @@ function Portfolio() {
       <div className="h-full w-full">
         <h3 className="text-slate-50 text-3xl mx-4 my-4 md:text-5xl underline">Portfolio</h3>
         <div className="text-slate-50 h-1/4 md:h-1/3 flex">
-          <a className="mx-4 my-4 bg-black border-slate-900 border-2 rounded flex flex-col justify-between w-1/2 h-6/7 md:w-1/4 md:h-3/4 relative hover:border-slate-50"
+          <a className="mx-4 my-4 bg-black border-slate-900 border-2 rounded flex flex-col justify-between w-1/2 h-4/5 md:w-1/4 md:h-3/4 relative hover:border-slate-50"
           target="_blank"
           rel="noreferrer"
           href="https://github.com/2023-opportunity-hack/CodeFusion-Collective--MobileAppforTeens-RebuildaprototypewithSecurityandUsability"
@@ -33,7 +33,7 @@ function Portfolio() {
             <span className='mx-2 my-2 z-10 text-xs md:text-base'>Safe Space</span>
             <span className='mx-2 my-2 z-10 text-xs md:text-xs'>Mobile app designed to protect teens from domestic violence and keep them safe </span>
           </a>
-          <a className="mx-4 my-4 bg-black border-slate-900 border-2 rounded flex flex-col justify-between w-1/2 h-6/7 md:w-1/4 md:h-3/4 relative hover:border-slate-50"
+          <a className="mx-4 my-4 bg-black border-slate-900 border-2 rounded flex flex-col justify-between w-1/2 h-4/5 md:w-1/4 md:h-3/4 relative hover:border-slate-50"
           target="_blank"
           rel="noreferrer"
           href="https://github.com/JoJos-Blue-Ocean/TheWorld"
@@ -44,7 +44,7 @@ function Portfolio() {
           </a>
         </div>
         <div className="text-slate-50 h-1/4 md:h-1/3 flex">
-          <a className="mx-4 my-4 bg-black border-slate-900 border-2 rounded flex flex-col justify-between w-1/2 h-6/7 md:w-1/4 md:h-3/4 relative hover:border-slate-50"
+          <a className="mx-4 my-4 bg-black border-slate-900 border-2 rounded flex flex-col justify-between w-1/2 h-4/5 md:w-1/4 md:h-3/4 relative hover:border-slate-50"
           target="_blank"
           rel="noreferrer"
           href="https://github.com/aitzeng/personal-website"
@@ -52,17 +52,17 @@ function Portfolio() {
             <span className='mx-2 my-2 z-10 text-xs md:text-base'>Personal Portfolio</span>
             <span className='mx-2 my-2 z-10 text-xs md:text-xs'>This website!</span>
           </a>
-          <a className="mx-4 my-4 border-slate-50 border-2 rounded flex flex-col justify-between w-1/2 h-6/7 md:w-1/4 md:h-3/4 relative hover:bg-slate-50 hover:border-slate-900 hover:text-black"
+          <a className="mx-4 my-4 border-slate-50 border-2 rounded flex flex-col justify-between w-1/2 h-4/5 md:w-1/4 md:h-3/4 relative hover:bg-slate-50 hover:border-slate-900 hover:text-black"
           target="_blank"
           rel="noreferrer"
           href="https://github.com/CBC-Ecommerce/styl-forge"
           style={stylForgeStyle}>
-            <span className='mx-2 my-2 z-10 text-xs md:text-black text-base'>Styl Forge</span>
-            <span className='mx-2 my-2 z-10 text-xs md:text-black text-xs'>Ecommerce clothing website</span>
+            <span className='mx-2 my-2 z-10 text-xs text-black md:text-base'>Styl Forge</span>
+            <span className='mx-2 my-2 z-10 text-xs text-black md:text-xs'>Ecommerce clothing website</span>
           </a>
         </div>
         <div className="text-slate-50 h-1/4 md:h-1/3 flex">
-          <a className="mx-4 my-4 border-slate-50 border-2 rounded flex flex-col justify-between w-1/2 h-6/7 md:w-1/4 md:h-3/4 relative hover:bg-slate-50 hover:border-slate-900 hover:text-black"
+          <a className="mx-4 my-4 border-slate-50 border-2 rounded flex flex-col justify-between w-1/2 h-4/5 md:w-1/4 md:h-3/4 relative hover:bg-slate-50 hover:border-slate-900 hover:text-black"
           target="_blank"
           rel="noreferrer"
           href="https://github.com/aitzeng/wuphf">
@@ -70,7 +70,7 @@ function Portfolio() {
             <span className='mx-2 my-2 z-10 text-xs md:text-xs'>Send single message to people using various communication methods</span>
             <PiDogFill className="w-full h-full flex absolute inset-0" color="#7D6363" />
           </a>
-          <a className="mx-4 my-4 border-slate-50 border-2 rounded flex flex-col justify-between w-1/2 h-6/7 md:w-1/4 md:h-3/4 relative hover:bg-slate-50 hover:border-slate-900 hover:text-black" target="_blank" rel="noreferrer" href="https://github.com/luminescent-linguica/Reviews-API">
+          <a className="mx-4 my-4 border-slate-50 border-2 rounded flex flex-col justify-between w-1/2 h-4/5 md:w-1/4 md:h-3/4 relative hover:bg-slate-50 hover:border-slate-900 hover:text-black" target="_blank" rel="noreferrer" href="https://github.com/luminescent-linguica/Reviews-API">
             <span className='mx-2 my-2 z-10 text-xs md:text-base'>Atelier System Design</span>
             <span className='mx-2 my-2 z-10 text-xs md:text-xs'>Retrofit of an existing API service to satisfy new SLA requirements</span>
             <FcMultipleInputs className="w-full h-full flex absolute inset-0" />
