@@ -35,7 +35,7 @@ function Portfolio() {
           <a className="mx-4 my-4 bg-black border-slate-900 border-2 rounded flex flex-col justify-between w-1/2 h-4/5 md:w-1/4 md:h-3/4 relative hover:border-slate-50"
             target="_blank"
             rel="noreferrer"
-            href="https://www.clearviction.org/"
+            href="https://clearviction-next.vercel.app/"
             style={clearvictionStyle}>
             <span className='mx-2 my-2 z-10 text-xs md:text-base'>Clearviction</span>
             <span className='mx-2 my-2 z-10 text-xs md:text-xs'>Seattle Conviction Calculator</span>
